@@ -1,9 +1,8 @@
 ---
-title: "Introdução ao R"
-subtitle: "Encontro Síncrono 02"
+title: "Apresentação da disciplina"
+subtitle: "Primeiras funções"  
 author: 
   - <br></br>Renata Oliveira
-date: '22/01/2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -153,7 +152,6 @@ class: center, middle
 ```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(viridis)
-library(sugrrants)
 library(lubridate)
 ```
 
@@ -554,37 +552,6 @@ knitr::include_graphics("img/phd_comics_vc.gif")
 
 ---
 
-## Como usaremos Git e GitHub?
-
-```{r echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/whole-game-01.png")
-```
-
----
-## Como usaremos Git e GitHub?
-
-```{r echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/whole-game-02.png")
-```
-
----
-
-## Como usaremos Git e GitHub?
-
-```{r echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/whole-game-03.png")
-```
-
----
-
-## Como usaremos Git e GitHub?
-
-```{r echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/whole-game-04.png")
-```
-
----
-
 # Dicas: Git e GitHub
 
 - 99% do tempo você usará o git para `add`, `commit`, `push` e `pull`.
@@ -597,9 +564,8 @@ knitr::include_graphics("img/whole-game-04.png")
 
 ## Encaminhamentos:
 
-1. Tutorial de R - Swirl
-2. Atividades no SIGAA
-3. Projeto integrador
+1. Tutorial de R - Swirl   
+2. Projeto integrador
 
 <br></br>
 
